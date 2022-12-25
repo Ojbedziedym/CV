@@ -1,0 +1,81 @@
+
+body {
+  background-color: rgba(12, 1, 1, 0.952);
+  color: black;
+}
+h1 {
+  color: aqua
+}
+h2 {
+  margin: 50px;
+  padding: 20px;
+  border: 10px dotted rgb(255, 58, 0);
+  text-align: center;
+  color: greenyellow;
+}
+
+h3 {
+  color: goldenrod;
+ text-decoration: underline;
+ text-shadow: rgb(114, 136, 124);
+ text-align: center;
+}
+.opis {
+  margin-left: 75px;
+  color: rgb(200, 200, 200);
+  text-align: right;
+  width: 85%;
+}
+
+.ptaszniki {
+  text-decoration: none;
+  color: green;
+}
+.contact-me
+{
+  text-decoration: none;
+  color: gold;
+}
+
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: greenyellow;
+}
+
+.social
+{
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.spider {
+  width: 300px;
+  height: 300px;
+  margin: 25px;
+  border: 10px double rgb(212, 31, 40);
+  border-radius: 100px 25px 100px 25px;
+  padding: 50px;
+ }
+
+.tytul {
+  font-size: 50px;
+  color: rgb(246, 255, 127);
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.grid-container {
+  display: grid;
+  grid-column: auto;
+  text-align: left;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(91, 165, 42);
+}
+table
+{
+  border: 5px, solid,  gray;
+  color: gray;
+}

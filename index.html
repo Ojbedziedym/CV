@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Strona Świeżaka</title>
+    <script>
+        function flash(id, kolor, czas, kolor2, czas2)
+        {
+            document.getElementById(id).style.color = kolor;
+            setTimeout('flash("' + id + '","' + kolor2 + '",' + czas2 + ',"' + kolor + '",' + czas + ')', czas);
+        }
+        </script>
+</head>
+<body>
+	<table cellspacing="50">
+		<tr>
+			<td><img src="images/Adam.jpg" alt="Moje zdjęcie profilowe"></td>
+			<td><h1><center>Adam Doniak</center></h1>
+
+				<br>
+				
+				<h3>Witam na mojej stronie domowej.</h3></td>
+		</tr>
+	</table>
+    <h2><div id="identyfikator">Helloł World :)</div></h2>
+        <script>
+        flash("identyfikator", "red", 500, "orange", 500);
+        </script>
+	<hr size="5" color="red">
+    <p class="opis">
+        Tak krótko opisując swoją osobę, jestem 40 - letnim facetem mieszkającym na stałe w Niemczech, w pięknym mieście Monachium. Zaczynam się uczyć programownia, poza tym po wielu próbach odnalazłem swoje hobby, które mnie fascynuje, mianowicie <a href="ptaszniki.html" class="ptaszniki"> hodowla ptaszników</a>. To dla mnie temat rzeka, o którym mogę gadać godzinami.
+    </p>
+	<br>
+	<hr size="5" color="red">
+	<br>
+	<h3>Moje kursy</h3>
+	<table cellspacing="10px">
+		<thead>
+			<tr>
+				<th>Data</th>
+				<th>Kurs</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>08.-11.2022</td>
+			<td>HTML and CSS on Mimo App</td>
+		</tr>
+		<tr>
+			<td>12.2022-03. 2023</td>
+			<td>Full Web Development on Udemy</td>
+		</tr>
+	</tbody>
+	</table>
+	<br>
+	<hr size="5" color="red">
+	<br>
+	<H3>Moje umiejętności</H3>
+	<table>
+		<tr>
+			<td><table cellspacing="10">
+				<tr>
+					<td>HTML</td>
+					<td>⭐⭐⭐</td>
+				<tr>
+					<td>CSS</td>
+					<td>⭐⭐⭐</td>
+				</tr>
+			</table></td>
+			<td><table cellspacing="10">
+				<tr>
+					<td>Javascript</td>
+					<td>⭐</td>
+				</tr>
+				<tr>
+					<td>Fotografia</td>
+					<td>⭐⭐</td>
+				</tr>
+			</table></td>
+		</tr>
+	</table>
+	<br>
+	<hr size="5" color="red">
+	<br>
+	<center><a href="contact-me.html" class="contact-me">Contact me :)</a></center>
+</body>
+</html>
